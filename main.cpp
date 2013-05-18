@@ -106,7 +106,7 @@ void DilateAndErode(const Mat& inp, Mat& out)
 }
 
 void ContourOperation(Mat& inp, Mat& out, int threshold)
-{
+{ 
 	Mat canny_output;	
 	vector<Vec4i> hierarchy;
         vector<vector<Point>> contours;
